@@ -1,0 +1,10 @@
+data_root: data
+train_split: train.jsonl
+val_split: val.jsonl
+test_split: test.jsonl
+image_size: 256
+max_length: 128
+batch_size: 16
+num_workers: 4
+
+
