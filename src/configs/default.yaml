@@ -1,0 +1,6 @@
+project: poetic-vis
+output_dir: outputs
+seed: 42
+device: cuda
+
+

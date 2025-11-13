@@ -1,0 +1,11 @@
+metrics:
+  - is
+  - fid
+  - clipscore
+  - cider
+  - bertscore
+  - spice
+batch_size: 16
+num_workers: 4
+
+

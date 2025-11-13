@@ -1,0 +1,8 @@
+text_model: bert-base-chinese
+hidden_dim: 768
+fusion_dim: 512
+decoder_layers: 4
+decoder_dim: 512
+num_heads: 8
+
+
