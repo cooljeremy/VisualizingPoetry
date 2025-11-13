@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poetic-vis"
+version = "0.1.0"
+description = "Poetry-to-image generation framework"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+poetic-vis-train = "poetic_vis.cli.train:main"
+poetic-vis-eval = "poetic_vis.cli.evaluate:main"
+poetic-vis-infer = "poetic_vis.cli.infer:main"
+
+
